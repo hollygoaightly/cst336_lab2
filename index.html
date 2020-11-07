@@ -168,10 +168,10 @@
                     $("#totalScore").html("Total Score: " + score);
                     if(score < 80){
                         $("#totalScore").attr("class","bg-danger text-white");
-                        $("#congrats").html("Congratulations!");
                     }
                     else{
                          $("#totalScore").attr("class","bg-success text-white");
+                         $("#congrats").html("Congratulations!");
                     }
                     $("#totalAttempts").html(`Total Attempts: ${++attempts}`);
                     localStorage.setItem("total_attempts", attempts);
@@ -269,7 +269,7 @@
         <br/><br/>
         <h2 id="totalScore" class="text-info"></h2>
         <br/><br/>
-        <h3 id="congrats" class="text-info"></h3>
+        <h3 id="congrats"></h3>
         <br/><br/>
         <h3 id="totalAttempts"></h3>
     </body>
