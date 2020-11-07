@@ -168,7 +168,7 @@
                     $("#totalScore").html("Total Score: " + score);
                     if(score < 80){
                         $("#totalScore").attr("class","bg-danger text-white");
-                        $("#congrats").html("Congrats");
+                        $("#congrats").html("Congratulations!");
                     }
                     else{
                          $("#totalScore").attr("class","bg-success text-white");
@@ -269,7 +269,7 @@
         <br/><br/>
         <h2 id="totalScore" class="text-info"></h2>
         <br/><br/>
-        <h3 id="congrats" class="text-info"></h2>
+        <h3 id="congrats" class="text-info"></h3>
         <br/><br/>
         <h3 id="totalAttempts"></h3>
     </body>
