@@ -256,7 +256,7 @@
         <div id="q9Feedback"></div>
         <br/><br/>
         
-        <h3><span id="markImg10"></span>What of the folowing is not a flag of a US state?</h3>
+        <h3><span id="markImg10"></span>Which of the folowing is not a flag of a US state?</h3>
         <img src="img/ca.png" alt="flag 1" class="q10Choice" id="flag1">
         <img src="img/ga.png" alt="flag 2" class="q10Choice" id="flag2">
         <img src="img/nm.png" alt="flag 3" class="q10Choice" id="flag3">
